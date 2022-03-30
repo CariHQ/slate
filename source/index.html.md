@@ -162,15 +162,15 @@ fetch("https://dev.cari.finance/identity/verify/", requestOptions)
   "front": {
     "mrz_type": "TD3",
     "valid_score": 98,
-    "raw_text": "P<U5AGEORGE<<KENVRQEQELEENED3 CT<<<<<<A<<<<<<<<<<\n5009779641USA88031 6 OM2 301 1 36254056095<082372",
+    "raw_text": "P<U5AGEORGE<<KENVRQEQELEENED3 CT<<<<<<A<<<<<<<<<<\n5007686871USA88031 6 OM2 301 1 36254056095<082372",
     "type": "P<",
     "country": "USA",
-    "number": "500977964",
-    "date_of_birth": "880316",
-    "expiration_date": "230113",
+    "number": "500768687",
+    "date_of_birth": "840516",
+    "expiration_date": "260115",
     "nationality": "USA",
     "sex": "M",
-    "names": "KENVRQEQELEENED3CT      A",
+    "names": "KENROY BENEDICT",
     "surname": "GEORGE",
     "personal_number": "254056095<0823",
     "check_number": "1",
@@ -198,16 +198,16 @@ This endpoint retrieves all kittens.
 
 ### Query Parameters
 
-| Parameter | Default | Description                                                                      |
-| --------- | ------- | -------------------------------------------------------------------------------- |
-| type      | false   | If set to true, the result will also include cats.                               |
-| selfie    | true    | If set to false, the result will include kittens that have already been adopted. |
-| front     | true    | If set to false, the result will include kittens that have already been adopted. |
-| back      | true    | If set to false, the result will include kittens that have already been adopted. |
+| Parameter | Default | Description                                                 |
+| --------- | ------- | ----------------------------------------------------------- |
+| type      | card    | The type of identity document used for verification.        |
+| selfie    | empty   | The destination of identity document used for verification. |
+| front     | empty   | The destination of identity document used for verification. |
+| back      | empty   | The destination of identity document used for verification. |
 
-<aside class="success">
+<!-- <aside class="success">
 Remember — a happy kitten is an authenticated kitten!
-</aside>
+</aside> -->
 
 ## Get a Specific Verification
 
@@ -294,15 +294,15 @@ fetch(
   "front": {
     "mrz_type": "TD3",
     "valid_score": 98,
-    "raw_text": "P<U5AGEORGE<<KENVRQEQELEENED3 CT<<<<<<A<<<<<<<<<<\n5009779641USA88031 6 OM2 301 1 36254056095<082372",
+    "raw_text": "P<U5AGEORGE<<KENVRQEQELEENED3 CT<<<<<<A<<<<<<<<<<\n5007686871USA88031 6 OM2 301 1 36254056095<082372",
     "type": "P<",
     "country": "USA",
-    "number": "500977964",
-    "date_of_birth": "880316",
-    "expiration_date": "230113",
+    "number": "500768687",
+    "date_of_birth": "840516",
+    "expiration_date": "260115",
     "nationality": "USA",
     "sex": "M",
-    "names": "KENVRQEQELEENED3CT      A",
+    "names": "KENROY BENEDICT",
     "surname": "GEORGE",
     "personal_number": "254056095<0823",
     "check_number": "1",
@@ -324,7 +324,7 @@ fetch(
 
 This endpoint retrieves a specific verification.
 
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
+<!-- <aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside> -->
 
 ### HTTP Request
 
@@ -332,11 +332,11 @@ This endpoint retrieves a specific verification.
 
 ### URL Parameters
 
-| Parameter | Description                      |
-| --------- | -------------------------------- |
-| ID        | The ID of the kitten to retrieve |
+| Parameter | Description                            |
+| --------- | -------------------------------------- |
+| ID        | The ID of the verification to retrieve |
 
-## Delete a Specific Verification
+<!-- ## Delete a Specific Verification
 
 ```python
 import Cari
@@ -377,4 +377,4 @@ This endpoint deletes a specific verification.
 
 | Parameter | Description                    |
 | --------- | ------------------------------ |
-| ID        | The ID of the kitten to delete |
+| ID        | The ID of the kitten to delete | -->
